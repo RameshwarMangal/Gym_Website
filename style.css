@@ -1,0 +1,96 @@
+body{
+    background:url("Gym_photo.jpg");
+    height:800px;
+    width:1500px;
+    font-family: "Baskervville SC", serif;
+
+}
+.navbar li{
+    display:inline-block;
+    /* color:white; */
+    
+}
+.navbar li a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    padding:30px 15px;
+    font-size:17px;
+}
+.left img{
+    width:50px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration:underline;
+    color:blue;
+}
+.navbar{
+    color:white;
+    text-decoration:none;
+}
+.left{
+    display:inline-block;
+    /* border:2px solid blue; */
+    position:absolute;
+    left:20px;
+    text-align:center;
+    top:0px;
+    margin:20px auto;
+    color:white;
+}
+.btn{
+    margin:0px 9px;
+    background-color:black;
+    color:white;
+    padding:4px 14px;
+    border:2px solid grey;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+    font-family: "Baskervville SC", serif;
+}
+.btn:hover{
+    background-color:grey;
+}
+.right{
+    color:white;
+    position:absolute;
+    right:20px;
+    top:0px;
+    display:inline-block;
+    /* border:2px solid green; */
+    margin:20px auto;
+}
+.mid{
+    display:block;
+    /* border:2px solid red; */
+    width:36%;
+    margin:20px auto;
+    color:white;
+}
+.container{
+    color:white;
+    border: 2px solid white;
+    margin: 80px 70px;
+    padding: 75px;
+    border-radius: 20px;
+    width: 33%;
+}
+.form-group input{
+    text-align:center;
+    display:block;
+    width: 70%;
+    margin:8px auto;
+    border:2px solid red;
+    padding:3px;
+    border-radius:5px;
+    font-size:20px;
+    font-family: "Baskervville SC", serif;
+}
+.container h1{
+    text-align:center;
+}
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
